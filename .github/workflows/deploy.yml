@@ -35,7 +35,7 @@ jobs:
   #         echo Add other actions to build,
   #         echo test, and deploy your project.
   deploy:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
 
     steps:
     - name: Checkout source code
